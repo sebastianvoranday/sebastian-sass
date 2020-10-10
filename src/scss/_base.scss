@@ -1,0 +1,32 @@
+
+html, body {
+  margin: 0;
+  font-family: Arial;
+  color: $secondary-color;
+}
+
+p, ul {
+  font-size: 1rem;
+}
+
+img {
+  padding-left: 30px;
+  height: 350px;
+  width: 550px;
+}
+
+ul {
+  list-style: none;
+}
+
+.shows {
+  list-style: circle;
+  list-style-position: inside;
+} 
+
+
+.container {
+  min-height: 100%;
+  display: flex;
+
+}
